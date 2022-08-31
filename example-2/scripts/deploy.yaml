@@ -22,7 +22,7 @@ spec:
     spec:
       containers: 
       - name: video-streaming
-        image: bmdk10.azurecr.io/video-streaming:v1
+        image: bmdk1.azurecr.io/video-streaming:1
         imagePullPolicy: IfNotPresent
         env:
         - name: PORT
