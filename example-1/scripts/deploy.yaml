@@ -8,8 +8,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: video-streaming
-  labels: 
-    app: video-streaming
 spec:
   replicas: 1
   selector:
